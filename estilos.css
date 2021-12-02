@@ -1,0 +1,260 @@
+
+/*eliminar margenes y relleno para toda la pagina*/
+*
+{
+margin: 0;
+padding:0;
+-webkit-box-sizing:  border-box;
+-moz-box-sizing:  border-box;
+box-sizing: border-box;
+
+
+}
+/*aparto del fondo de la pagina*/
+body
+{
+	background: #ffffff;
+	font: 12px sans-serif;
+	color: #666666;
+
+}
+
+/*menu de la pagina*/
+.navegacion {
+	width: 912px;
+	padding: 10px 30px;
+	margin: auto;
+	background:#0000ff;
+}
+
+.navegacion ul{
+	
+	list-style: none;
+
+}
+
+.menu > li{
+
+	display: inline-block;
+
+
+}
+
+.menu > li > a{
+	display: :block;
+	padding: 50px;
+	color:#fff;
+	font font-family: sans-serif;
+	text-decoration: none;
+
+} 
+
+.menu li a:hover{
+
+	color:  #FF0000;
+	transition: all .3s;
+}
+
+
+/*CSS en las tablas, quitando los text-decoration y no mostrar ningun marcador en las listas*/
+#tabla a {
+	text-decoration: none;
+
+}
+
+#tabla ul{
+	list-style: none;
+	color:  #FF0000;
+}
+
+
+/*imagen del inicio*/
+#header {
+	background: url(images/piramide.jpg) no-repeat;
+	width: 912px;
+	height: 262px;
+	margin:auto;
+
+}
+
+/*Contenido*/
+
+#main {
+margin: 0 auto;
+width: 912px;
+background: url(images/table_back.jpg) repeat-y;
+}
+
+
+
+#content
+{
+margin: auto;
+width: 870px;
+padding: 15px;
+}
+
+#left
+{
+width: 580px;
+padding: 10px;
+}
+
+#left H1
+{
+color: #8eabaf;
+margin: 0;
+padding: 0;
+font-size: 24px;
+}
+#left H2
+{
+color: #8eabaf;
+margin: 0;
+padding: 0;
+font-size: 18px;
+padding-top: 10px;
+}
+
+#left a
+{
+ color: #8eabaf;
+}
+
+#left a:hover {
+	text-decoration: none;
+	color: #FF0000;
+}
+
+#left a:visited {
+	color: #8eabaf;
+}
+
+.small
+{
+margin: 15px;
+padding: 5px;
+border: 1px solid #99A067
+}
+
+#right
+{
+float: right;
+width: 254px;
+}
+#calendar1 {
+	padding: 0 10px 20px 10px;
+}
+
+#calendar table {
+	width: 100%;
+	text-align: center;
+}
+
+#calendar thead {
+	background: #F1F1F1;
+}
+
+#calendar tbody td {
+	border: 1px solid #F1F1F1;
+}
+
+#calendar #prev {
+	text-align: left;
+}
+
+#calendar #next {
+	text-align: right;
+}
+
+#calendar tfoot a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#calendar #now {
+	background: #b1b1b1;
+	border: 1px solid #000000;
+	font-weight: bold;
+	color: #ffffff
+}
+#sidebar 
+{
+width: 254px;
+}
+
+#sidebar ul 
+{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	background: url(images/title_back.gif) no-repeat;
+}
+
+#sidebar li 
+{
+	margin-bottom: 15px;
+
+}
+
+#sidebar li ul {
+	padding: 10px;
+	border-top: none;
+}
+
+#sidebar li li {
+	margin: 0;
+	padding: 3px 0;
+}
+
+
+#sidebar li h2 {
+	height: 34px;
+	margin: 0;
+	padding: 10px 0 0 20px;
+	background: #8eabaf url(images/title.gif) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+}
+
+#sidebar a:link {
+	text-decoration: none;
+}
+
+#sidebar a:hover {
+	text-decoration: underline;
+}
+#sidebar a:visited {
+		text-decoration: none;
+}
+
+#sidebar li a {
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat 1px 5px;
+}
+
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 52px;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	border-top: #ffffff solid 5px;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
